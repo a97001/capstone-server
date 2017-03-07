@@ -1,0 +1,47 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-param-reassign": 0,
+    "camelcase": 0,
+    "no-unused-vars": 1,
+    "func-names": 0,
+    "indent": 0,
+    "max-len": 0,
+    "newline-per-chained-call": 0,
+    "no-useless-escape": 0,
+    "no-underscore-dangle": 0,
+    "linebreak-style": 0,
+    "no-tabs": 0,
+    "no-plusplus": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-dynamic-require": 0,
+    "require-yield": 0,
+    "no-mixed-operators": 0,
+    "no-prototype-builtins": 0,
+    "no-continue": 0,
+    "no-lonely-if": 0,
+    "space-before-function-paren": [2,
+    {
+    "anonymous": "always",
+    "named": "never"
+    }],
+    "consistent-return": 0,
+    "no-labels": 0,
+    "no-restricted-syntax": 0,
+    // TODO: turn on later
+    "comma-dangle": [0],
+    "no-shadow": ["error", { "allow": ["done", "err", "callback"] }]
+  },
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "extends": ["eslint:recommended", "airbnb/base"]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Negawatt API documentation",
+  "version": "0.1.0",
+  "description": "API manager",
+  "template": {
+    "forceLanguage": "en"
+  }
+}
